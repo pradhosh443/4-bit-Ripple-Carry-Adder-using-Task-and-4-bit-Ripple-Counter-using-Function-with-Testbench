@@ -40,6 +40,7 @@ module ripple_carry_adder_4bit (
     assign Sum = sum_temp;
 
 endmodule
+![image](https://github.com/user-attachments/assets/1c06cdb4-ff22-49b6-9c02-c4eb573043c0)
 
 
 // Test bench for Ripple carry adder
@@ -85,6 +86,7 @@ module ripple_carry_adder_4bit_tb;
     end
 
 endmodule
+![image](https://github.com/user-attachments/assets/f93b498d-989c-4de3-a8b9-5e76163b8254)
 
 
 // Verilog Code ripple counter
@@ -112,6 +114,7 @@ module ripple_counter_4bit (
     end
 
 endmodule
+![image](https://github.com/user-attachments/assets/6a0ffc6d-373a-47d9-9654-fc7a85a5622b)
 
 // TestBench
 
@@ -148,6 +151,7 @@ module ripple_counter_4bit_tb;
     end
 
 endmodule
+![image](https://github.com/user-attachments/assets/b4d2f290-ded0-4eed-9ff7-78e6a65b6a1a)
 
 Conclusion:
 The 4-bit Ripple Carry Adder was successfully designed and implemented using Verilog HDL with the help of a task for the full adder logic. The testbench verified that the ripple carry adder correctly computes the 4-bit sum and carry-out for various input combinations. The simulation results matched the expected outputs.
